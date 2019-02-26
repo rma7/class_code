@@ -1,6 +1,6 @@
 ################################################################################
 #
-# Program:		methods2019_asg3.jl
+# Program:		methods2019_asg7.jl
 # Purpose: 		Process ClinicalTrials.gov titles
 # Description:	For each ClinicalTrials.gov title, gets and prints length,
 #						prints first five characters if length is less than 75 or
