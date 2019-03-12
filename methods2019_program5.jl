@@ -18,6 +18,7 @@ println("hello. I will search for $query_term")
 query_dict  = Dict()
 query_dict["db"] = "pubmed"
 query_dict["term"] = query_term
+query_dict["retmax"] = 100
 
 
 search_result = String(HTTP.post(base_search_query,body=HTTP.escapeuri(query_dict)))
